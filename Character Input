@@ -1,0 +1,10 @@
+import datetime
+name = raw_input("Enter you name :")
+print "Your name :", name
+age = int(raw_input("Enter your age :"))
+print "Age :", age
+now = datetime.datetime.now()
+yr = now.year + (100-age)
+n = int(raw_input("Enter times you want to be printed :"))
+for i in range(0,n):
+    print "You will turn 100 in the Year :", yr
