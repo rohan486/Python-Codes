@@ -1,0 +1,10 @@
+def fibo( n ):
+    a,b = 0,1
+    for i in range (0,7):
+        a,b=b,a+b
+        print b
+    return
+    
+n = raw_input("Enter the nth number of fibonaci numbers to be generated :")
+print "Fibonacci numbers :"
+fibo (n)
