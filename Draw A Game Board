@@ -1,0 +1,6 @@
+list = ['|',' ---']
+n= int(raw_input("Enter size of board game: "))
+for i in range(0,n):
+    print list[1] * n
+    print '{}   '.format(list[0])* (n+1)
+print list[1] *n
