@@ -6,16 +6,10 @@ def result( game ):
     #print le
     #For winner across rows
     for i in range(0,le+1):
-        for j in range(0,le+1):
-            #print (game[i][j])
-            val.append(game[i][j])
-        #print (val)
-        if len(set(val)) == 1:
-            print (val)
+        if len(set(game[i])) == 1:
+            print game[i]
             m=1
-        val = []
 
-    val=[]
     #For winner across column
     for i in range(0,le+1):
         for j in range(0,le+1):
